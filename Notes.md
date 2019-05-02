@@ -1,3 +1,6 @@
+-----------------------------------
+186 React Intro 
+-----------------------------------
 ### Installs webpack, babel, debugging and other NPM packages
 npm install -g create-react-app 
 create-react-app robofriends
@@ -30,3 +33,9 @@ Exit console
 Enter `npm install tachyons`
 Gets added to package.json
 *Can install without Typescript -- ignore errors
+
+-------------------------------------
+190 Building React App
+------------------------------------
+
+Destructuring and adding robots randomply through 'Card.js' and 'robots.js'

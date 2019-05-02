@@ -1,25 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-
-// import App from './App';
-import Hello from './Hello.js';
+import Card from './Card';
 
 // Add tachyons
 import 'tachyons';
 
+// Note: destructured with {} because then have different default 
+import { robots } from './robots.js'
+
 import * as serviceWorker from './serviceWorker';
 
-// ReactDOM.render(<App />, document.getElementById('root'));
-// ReactDOM.render(<h2> Removed App tag and commented out import </h2>, document.getElementById('root'));
-// "Props" here within Hello Component are unique to React
-// Props use curly brackets
-// Prop "greetings" can be anything
-ReactDOM.render(<Hello greeting={'Hello' + 'Ninja using JavaScript'} />, document.getElementById('root'));
-ReactDOM.render(<Hello anything={'Antying else applies here...'} />, document.getElementById('root'));
+// Creates first robot card 
+// Wrap in div for multiple cards
+ReactDOM.render(<div>
 
+					<Card id={robots[0].id} name={robots[0].name} email={robots[0].email} />
+					<Card id={robots[1].id} name={robots[1].name} email={robots[1].email} />
+					<Card id={robots[3].id} name={robots[2].name} email={robots[2].email} />
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
+				</div>, document.getElementById('root'));
+
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
