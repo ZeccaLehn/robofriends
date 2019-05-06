@@ -39,3 +39,21 @@ Gets added to package.json
 ------------------------------------
 
 Destructuring and adding robots randomply through 'Card.js' and 'robots.js'
+
+---------------------------------------
+191 Building A React App 2
+---------------------------------------
+
+Using map to create multiple child Card Components within the new parent CardList component.
+
+Note error in console:
+
+	Warning: Each child in a list should have a unique "key" prop.
+
+	Check the render method of `CardList`. See https://fb.me/react-warning-keys for more information.
+	    in Card (at CardList.js:8)
+	    in CardList (at src/index.js:17)
+	console.(anonymous function) @ index.js:1437
+	localhost/:1 Unchecked runtime.lastError: The message port closed before a response was received.
+
+Virtual Dom keeps track of cards, but without a 'key prop' will have to change entire DOM. We'll use this to minimize work with a 'unique key'. See 'key = {i}' within Cardlist.js.
