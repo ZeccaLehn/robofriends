@@ -1,6 +1,6 @@
 import React, { Component }  from 'react';
 import CardList from './CardList.js';
-import { robots } from './robots.js';
+// import { robots } from './robots.js';
 import SearchBox from './SearchBox.js';
 import './App.css'
 
@@ -14,11 +14,26 @@ class App extends Component {
 		super()
 		// State can change and effect parent
 		this.state={
-			robots: robots,
+			robots: [],
 			searchfield: ''
 		};
 	};
 
+
+	// Pulls in the robots from this API
+	// https://jsonplaceholder.typicode.com/users
+
+	componentDidMount(){
+		// console.log('check');
+		fetch('https://jsonplaceholder.typicode.com/users')
+		.then(response => { return response.json()})
+		.then(users => { this.setState({ robots: users })});
+
+		// To test loading remove this.setState... above
+		// .then(users => { });
+
+
+		}
 
 	// "= (event) =>" Allows to use 'this' in method
 	onSearchChange = (event) => {
@@ -43,6 +58,13 @@ class App extends Component {
 		// Each letter typed consoled
 		// console.log(filteredRobots);	
 
+		// If database has many objects, we can speed
+		// it up with an ifelse using this state
+
+		if(this.state.robots.length === 0){
+			return <h1> Loading...</h1>
+		} else {
+
 		return(
 			// Centers search box
 			// Cardlist needs to know which robots are active to search
@@ -53,7 +75,11 @@ class App extends Component {
 			</div>
 
 			);
+
 		};
+
+	};
+
 };
 
 export default App;
