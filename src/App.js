@@ -2,7 +2,8 @@ import React, { Component }  from 'react';
 import CardList from './CardList.js';
 // import { robots } from './robots.js';
 import SearchBox from './SearchBox.js';
-import './App.css'
+import './App.css';
+import Scroll from './Scroll.js';
 
 // Note: Component is from React.Component imported above
 class App extends Component {
@@ -66,13 +67,24 @@ class App extends Component {
 		} else {
 
 		return(
+
 			// Centers search box
 			// Cardlist needs to know which robots are active to search
+			// See Scroll.js for `props.children` rendering
+	
 			<div className='tc'>
 				<h1 className='f1'>RoboFriends</h1>
 				<SearchBox searchChange={this.onSearchChange} />
-				<CardList robots={filteredRobots} />
+
+				<Scroll>
+
+					<CardList robots={filteredRobots} />
+
+				</Scroll>
+
 			</div>
+
+			
 
 			);
 

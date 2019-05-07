@@ -68,3 +68,8 @@ We'll want a memory in the app by using a "state" (description as an object) wit
 
 To create State, we need to render with inheritance.
 
+---------------------------------------
+195 Building A React App 5
+---------------------------------------
+
+Have learned about "props" and "state", now we learn about "children" in the context of wrapping component for scrolling within app. We use `props.children` to render the tag within `<scroll>`.
