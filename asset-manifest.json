@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/robotfriends/robofriends/static/css/main.3c6de20c.chunk.css",
-    "main.js": "/robotfriends/robofriends/static/js/main.a69e8152.chunk.js",
-    "main.js.map": "/robotfriends/robofriends/static/js/main.a69e8152.chunk.js.map",
-    "runtime~main.js": "/robotfriends/robofriends/static/js/runtime~main.9d8a8d9d.js",
-    "runtime~main.js.map": "/robotfriends/robofriends/static/js/runtime~main.9d8a8d9d.js.map",
-    "static/css/2.31dafeb2.chunk.css": "/robotfriends/robofriends/static/css/2.31dafeb2.chunk.css",
-    "static/js/2.590933e2.chunk.js": "/robotfriends/robofriends/static/js/2.590933e2.chunk.js",
-    "static/js/2.590933e2.chunk.js.map": "/robotfriends/robofriends/static/js/2.590933e2.chunk.js.map",
-    "index.html": "/robotfriends/robofriends/index.html",
-    "precache-manifest.54b731140e759612bfc68e443282b5d0.js": "/robotfriends/robofriends/precache-manifest.54b731140e759612bfc68e443282b5d0.js",
-    "service-worker.js": "/robotfriends/robofriends/service-worker.js",
-    "static/css/2.31dafeb2.chunk.css.map": "/robotfriends/robofriends/static/css/2.31dafeb2.chunk.css.map",
-    "static/css/main.3c6de20c.chunk.css.map": "/robotfriends/robofriends/static/css/main.3c6de20c.chunk.css.map",
-    "static/media/App.css": "/robotfriends/robofriends/static/media/MR ROBOT.86c545cc.woff"
+    "main.css": "/robotfriends.github.io/static/css/main.3c6e225d.chunk.css",
+    "main.js": "/robotfriends.github.io/static/js/main.76eb5f43.chunk.js",
+    "main.js.map": "/robotfriends.github.io/static/js/main.76eb5f43.chunk.js.map",
+    "runtime~main.js": "/robotfriends.github.io/static/js/runtime~main.5d237479.js",
+    "runtime~main.js.map": "/robotfriends.github.io/static/js/runtime~main.5d237479.js.map",
+    "static/css/2.31dafeb2.chunk.css": "/robotfriends.github.io/static/css/2.31dafeb2.chunk.css",
+    "static/js/2.590933e2.chunk.js": "/robotfriends.github.io/static/js/2.590933e2.chunk.js",
+    "static/js/2.590933e2.chunk.js.map": "/robotfriends.github.io/static/js/2.590933e2.chunk.js.map",
+    "index.html": "/robotfriends.github.io/index.html",
+    "precache-manifest.1a8bab7b8175a4b806cbdbce9ab45594.js": "/robotfriends.github.io/precache-manifest.1a8bab7b8175a4b806cbdbce9ab45594.js",
+    "service-worker.js": "/robotfriends.github.io/service-worker.js",
+    "static/css/2.31dafeb2.chunk.css.map": "/robotfriends.github.io/static/css/2.31dafeb2.chunk.css.map",
+    "static/css/main.3c6e225d.chunk.css.map": "/robotfriends.github.io/static/css/main.3c6e225d.chunk.css.map",
+    "static/media/App.css": "/robotfriends.github.io/static/media/MR ROBOT.86c545cc.woff"
   }
 }
