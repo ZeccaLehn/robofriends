@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.ee74baab.chunk.css",
-    "main.js": "/static/js/main.00e7cefb.chunk.js",
-    "main.js.map": "/static/js/main.00e7cefb.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/css/2.31dafeb2.chunk.css": "/static/css/2.31dafeb2.chunk.css",
-    "static/js/2.590933e2.chunk.js": "/static/js/2.590933e2.chunk.js",
-    "static/js/2.590933e2.chunk.js.map": "/static/js/2.590933e2.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.4ca7907b510ef29e83bfc2bfdf352843.js": "/precache-manifest.4ca7907b510ef29e83bfc2bfdf352843.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.31dafeb2.chunk.css.map": "/static/css/2.31dafeb2.chunk.css.map",
-    "static/css/main.ee74baab.chunk.css.map": "/static/css/main.ee74baab.chunk.css.map",
-    "static/media/App.css": "/static/media/MR ROBOT.86c545cc.woff"
+    "main.css": "/robofriends.github.io/static/css/main.3257518b.chunk.css",
+    "main.js": "/robofriends.github.io/static/js/main.9e89d21b.chunk.js",
+    "main.js.map": "/robofriends.github.io/static/js/main.9e89d21b.chunk.js.map",
+    "runtime~main.js": "/robofriends.github.io/static/js/runtime~main.3323a9af.js",
+    "runtime~main.js.map": "/robofriends.github.io/static/js/runtime~main.3323a9af.js.map",
+    "static/css/2.31dafeb2.chunk.css": "/robofriends.github.io/static/css/2.31dafeb2.chunk.css",
+    "static/js/2.590933e2.chunk.js": "/robofriends.github.io/static/js/2.590933e2.chunk.js",
+    "static/js/2.590933e2.chunk.js.map": "/robofriends.github.io/static/js/2.590933e2.chunk.js.map",
+    "index.html": "/robofriends.github.io/index.html",
+    "precache-manifest.8e7dec7ea2b3e46a3246d535f7bf2986.js": "/robofriends.github.io/precache-manifest.8e7dec7ea2b3e46a3246d535f7bf2986.js",
+    "service-worker.js": "/robofriends.github.io/service-worker.js",
+    "static/css/2.31dafeb2.chunk.css.map": "/robofriends.github.io/static/css/2.31dafeb2.chunk.css.map",
+    "static/css/main.3257518b.chunk.css.map": "/robofriends.github.io/static/css/main.3257518b.chunk.css.map",
+    "static/media/App.css": "/robofriends.github.io/static/media/MR ROBOT.86c545cc.woff"
   }
 }
