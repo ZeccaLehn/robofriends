@@ -81,3 +81,11 @@ Have learned about "props" and "state", now we learn about "children" in the con
 
 Created `Containers` (to pass down to...) and `Components` (to take messages from Containers as 'pure functions')
 
+For building a deployment version use:
+`npm run build`
+
+This creats "/Static" folder and doesn't push to github.
+
+Will try making a `gh-pages` version next with this article's code:
+
+https://medium.com/the-andela-way/how-to-deploy-your-react-application-to-github-pages-in-less-than-5-minutes-8c5f665a2d2a
