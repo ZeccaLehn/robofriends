@@ -73,3 +73,11 @@ To create State, we need to render with inheritance.
 ---------------------------------------
 
 Have learned about "props" and "state", now we learn about "children" in the context of wrapping component for scrolling within app. We use `props.children` to render the tag within `<scroll>`.
+
+
+---------------------------------------
+196 Building A React App 6
+---------------------------------------
+
+Created `Containers` (to pass down to...) and `Components` (to take messages from Containers as 'pure functions')
+

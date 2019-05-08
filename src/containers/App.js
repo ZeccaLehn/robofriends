@@ -1,9 +1,9 @@
 import React, { Component }  from 'react';
-import CardList from './CardList.js';
-// import { robots } from './robots.js';
-import SearchBox from './SearchBox.js';
+import CardList from '../components/CardList.js';
+import SearchBox from '../components/SearchBox.js';
+import Scroll from '../components/Scroll.js';
 import './App.css';
-import Scroll from './Scroll.js';
+
 
 // Note: Component is from React.Component imported above
 class App extends Component {
@@ -48,10 +48,14 @@ class App extends Component {
 
 	render(){
 
+		// Destructuring allows for this.state to be passed as object
+
+		const { robots, searchfield } = this.state
+
 		// Communicate event to filter Cards
 		// Note that filtered robot self mae constructor doesn't use this
-		const filteredRobots = this.state.robots.filter(robot => {
-			return robot.name.toLowerCase().includes(this.state.searchfield.toLowerCase());
+		const filteredRobots = robots.filter(robot => {
+			return robot.name.toLowerCase().includes(searchfield.toLowerCase());
 
 		});
 
@@ -61,8 +65,8 @@ class App extends Component {
 
 		// If database has many objects, we can speed
 		// it up with an ifelse using this state
-
-		if(this.state.robots.length === 0){
+		// If no robots, show loading screen
+		if(!robots.length){
 			return <h1> Loading...</h1>
 		} else {
 
