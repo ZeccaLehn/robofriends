@@ -4,6 +4,16 @@ Link to robofriends App: https://zeccalehn.github.io/robofriends/
 
 ---------------------------------------------------
 
+Note to team:
+
+To launch and run locally. First clone repo, then run
+
+`npm install --save react-scripts`
+
+`npm start`
+
+---------------------------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
