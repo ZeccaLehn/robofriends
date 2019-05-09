@@ -1,3 +1,34 @@
+---------------------------------------------------
+
+Link to robofriends App: https://zeccalehn.github.io/robofriends/
+
+---------------------------------------------------
+
+### Note to team
+
+To launch and run locally. First clone repo, then run:
+
+`npm install --save react-scripts`
+
+`npm start`
+
+To run previous commit state locally, we run:
+
+`git checkout <previous commit hash> .` 
+
+Example:
+
+`>git checkout be922721b40fc0d34b38e49f2cfd417334e8de6b .`
+
+To get back to most current commit on master branch:
+
+`git stash`
+
+`git pull origin master`
+
+
+---------------------------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
