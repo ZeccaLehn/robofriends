@@ -68,43 +68,5 @@ We'll want a memory in the app by using a "state" (description as an object) wit
 
 To create State, we need to render with inheritance.
 
----------------------------------------
-195 Building A React App 5
----------------------------------------
+Hello XYZ this is a test
 
-Have learned about "props" and "state", now we learn about "children" in the context of wrapping component for scrolling within app. We use `props.children` to render the tag within `<scroll>`.
-
-
----------------------------------------
-196 Building A React App 6
----------------------------------------
-
-Created `Containers` (to pass down to...) and `Components` (to take messages from Containers as 'pure functions')
-
-For building a deployment version use:
-`npm run build`
-
-This creats "/Static" folder and doesn't push to github.
-
-Will try making a `gh-pages` version next with this article's code:
-
-https://medium.com/the-andela-way/how-to-deploy-your-react-application-to-github-pages-in-less-than-5-minutes-8c5f665a2d2a
-
-For `gh-pages` deployment security from above link:
-
-```
-Note:
-Whilst hosting a more robust app, routing using on gh-pages does not work well with BrowserRouter or ReactRouter, make use of HashRouter from react-router-dom instead. So you’d import { HashRouter } from 'react-router-dom' as opposed to using import { BrowserRouter } from 'react-router-dom’, this will, however, create a # sign on your route.
-Sensitive information (eg .env files) should not be pushed to your online repository. My workaround is usually to git ignore the .env or configfile before pushing to my remote repository, when this is done I then allow git to track the .env or config file before running yarn run deploy, this makes my deployed app to have access to the necessary configuration files I need without compromising the security of the app.
-Thanks for reading and I do hope you found this article somewhat helpful.
-```
-
-----------------------------------------
-Launching Gh-pages static app 
-----------------------------------------
-
-For setup:
-https://dev.to/brettcnelson/getting-create-react-app-to-work-with-custom-domains-on-github-user-project-pages-2hp2
-
-For security:
-https://medium.com/the-andela-way/how-to-deploy-your-react-application-to-github-pages-in-less-than-5-minutes-8c5f665a2d2a
